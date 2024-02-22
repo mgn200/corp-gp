@@ -58,6 +58,10 @@
         <tn-ved-codes>
           <tn-ved-code>8517610008</tn-ved-code>
         </tn-ved-codes>
+        <!-- Габариты товара (длина, ширина, высота) в упаковке в сантиметрах. Формат: три положительных числа с точностью 0.001, разделитель целой и дробной части — точка. Числа должны быть                разделены символом «/» без пробелов.-->
+        <dimensions>20/40.55/25</dimensions>
+        <!-- Вес товара в килограммах с учетом упаковки. Вес можно указывать с точностью до тысячных (например, 1.001; разделитель целой и дробной части — точка). -->
+        <weight>2.550</weight>
         <!-- Варианты товара, в карточке товара выберается пользователем -->
         <variant>
           <!-- (Необязателен) Уникальный идентификатор, возвращается в API -->
@@ -86,7 +90,7 @@
         <country_of_origin>Китай</country_of_origin> <!-- Страна производства -->
         <picture>https://you-style.ru/upload/54bf646484f8.jpeg</picture>
         <picture>https://you-style.ru/upload/54bf6464g6dr.jpeg</picture>
-        <picture>https://you-style.ru/upload/74bf646484f8.jpeg</picture>
+        <picture>https://you-style.r<weight>2.550</weight>u/upload/74bf646484f8.jpeg</picture>
         <picture>https://you-style.ru/upload/8tbf64648de1.jpeg</picture>
         <picture>https://you-style.ru/upload/d4bf646484f8.jpeg</picture>
         <price>3 590</price>
@@ -94,6 +98,8 @@
         <param name="Цвет">бежевый</param>
         <param name="Ткань">шифон</param>
         <param name="Состав">65 % вискоза 30 % полиэстр 5 % лайкра</param>
+        <dimensions>20/20/20</dimensions>
+        <weight>2</weight>
         <variant>
           <size name="Размер">44</size>
           <param name="Длина">70 см</param>
